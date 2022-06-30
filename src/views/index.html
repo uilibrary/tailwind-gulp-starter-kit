@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta name="description" content="Landing Page" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="UI Lib" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/plugin-css/swiper-bundle.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/plugin-css/aos.css" />
+    @include('./layouts/shared/head.html', { "title": "Landing Page One" })
+  </head>
+
+  <body class="bg-gray-400">
+    <h1 class="text-3xl">Starter Kit</h1>
+    <!-- strat wrapper -->
+    <div class="font-inter">
+      <script src="js/plugins-core/aos.js"></script>
+      <script src="js/plugins-script/aos.js"></script>
+      <script src="js/plugins-core/swiper-bundle.js"></script>
+      <script src="js/plugins-script/testimonial/testimonial.js"></script>
+      @include('./layouts/shared/script.html')
+    </div>
+  </body>
+</html>
